@@ -1,0 +1,22 @@
+{
+  "name": "mentoria-pdv",
+  "version": "1.0.0",
+  "description": "Mentoria para empresário",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcelestino/Mentoria-PVD.git"
+  },
+  "author": "Celestino Trosso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamcelestino/Mentoria-PVD/issues"
+  },
+  "homepage": "https://github.com/iamcelestino/Mentoria-PVD#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
